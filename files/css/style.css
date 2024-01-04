@@ -31,7 +31,6 @@ h1 {
 }
 
 .header ul li {
-  /* TOP/BOTTOM LEFT/RIGHT */
   margin: 0 10px;
 }
 
@@ -123,7 +122,6 @@ h1 {
 }
 
 .main-spacing {
-  /* Top/bottom ---- Left/Right */
   padding: 50px 0;
 }
 
@@ -147,12 +145,10 @@ h1 {
 
 .contact form {
   width: 40%;
-  /* center a div */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   margin-top: 40px;
-  /* border-width border-type border-color */
   border: 2px solid white;
   padding: 40px;
   border-radius: 15px;
@@ -188,3 +184,11 @@ footer p {
   text-align: center;
   font-weight: 700;
 }
+
+media {
+  padding-left: 100px;
+}
+
+html {
+  scroll-behavior: smooth;
+ }
