@@ -186,8 +186,22 @@ footer p {
 }
 
 .media {
-  padding-left: 100px;
-  color: white;
+  display: flex; /* Menggunakan flexbox untuk mengatur tata letak */
+  justify-content: space-around; /* Menyebar tautan secara merata di sepanjang sumbu utama (horizontal) */
+  list-style: none; /* Menghilangkan bullet list */
+  
+}
+
+.media li {
+  text-align: center; /* Menempatkan teks di tengah */
+  
+  
+}
+
+.media a {
+  color: white; /* Mengubah warna teks menjadi putih */
+  text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+  
 }
 
 html {
