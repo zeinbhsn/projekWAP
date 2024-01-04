@@ -185,8 +185,9 @@ footer p {
   font-weight: 700;
 }
 
-media {
+.media {
   padding-left: 100px;
+  color: white;
 }
 
 html {
